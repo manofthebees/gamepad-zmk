@@ -1,0 +1,6 @@
+if SHIELD_GAMEPAD
+
+config ZMK_KEYBOARD_NAME
+    default "gamepad"
+
+endif
