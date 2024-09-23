@@ -42,4 +42,5 @@ kscan0: kscan {
         , <&xiao_d 6 (GPIO_ACTIVE_HIGH)> // col6
         , <&xiao_d 10 (GPIO_ACTIVE_HIGH)> // col7
         ;
+    };
 };
