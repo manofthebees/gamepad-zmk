@@ -25,7 +25,14 @@ RC(2,0) RC(2,1) RC(2,2) RC(2,3) RC(2,4) RC(0,5) RC(2,6) RC(2,7)
     };
 };
 
-&kscan0: kscan_0 {
+&kscan0 {
+    compatible = "zephyr,kscan";
+    status = "okay";
+    // Add any other required properties for your hardware
+};
+
+
+kscan0: kscan_0 {
     compatible ="zmk,kscan-gpio-matrix";
     label = "KSCAN";
     diode-direction = "col2row";
