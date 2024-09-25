@@ -9,9 +9,9 @@
         default_layer {
             bindings = <
 
-    &kp N1 &kp Q &kp W &kp E &kp R
-    &kp N2 &kp A &kp S &kp D &kp F &kp T &bt BT_CLR	 
-    &kp N3 &kp Z &kp X &kp C &kp V &kp LSHFT &kp SPACE &kp LCTRL
+        &kp ESC &kp Q &kp W &kp E &kp R
+        &kp LCTRL &kp A &kp S &kp D &kp F
+        &kp Z &kp X &kp C &kp LSHFT &kp SPACE
 
             >;
         };
